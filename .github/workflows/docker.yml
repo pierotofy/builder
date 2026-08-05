@@ -113,6 +113,7 @@ jobs:
           ${{ secrets.SSH_KEY_OO }}
           ${{ secrets.SSH_KEY_PD }}
           ${{ secrets.SSH_KEY_OS }}
+          ${{ secrets.SSH_KEY_FP }}
     - name: Collect git and ssh config files
       run: |
         mkdir root-config
