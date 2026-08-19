@@ -55,6 +55,7 @@ jobs:
           ${{ secrets.SSH_KEY_PD }}
           ${{ secrets.SSH_KEY_OS }}
           ${{ secrets.SSH_KEY_FP }}
+          ${{ secrets.SSH_KEY_FASTCDEM }}
     - name: Collect git and ssh config files
       run: |
         mkdir root-config
@@ -114,6 +115,7 @@ jobs:
           ${{ secrets.SSH_KEY_PD }}
           ${{ secrets.SSH_KEY_OS }}
           ${{ secrets.SSH_KEY_FP }}
+          ${{ secrets.SSH_KEY_FASTCDEM }}
     - name: Collect git and ssh config files
       run: |
         mkdir root-config
